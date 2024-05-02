@@ -12,9 +12,17 @@ console.log(result);
 let martial_artists = ['chun-li', 'goku', 'vegeta'];
 console.log(martial_artists)
 
+const ul = document.querySelector('.people')
 
-let people = ['mario', 'princess peach', 'donkey kong', 'chun li', 'wario'];
+const people = ['mario', 'princess peach', 'donkey kong', 'chun li', 'wario'];
 
-people.forEach((person) => {
-    console.log(person);
-});
+let html = ``;
+
+people.forEach(function(person){
+
+    html += `<li style="color: purple">${person}</li>`;
+
+})
+
+console.log(html);
+ul.innerHTML = html
