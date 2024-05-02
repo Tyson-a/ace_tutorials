@@ -12,11 +12,9 @@ console.log(result);
 let martial_artists = ['chun-li', 'goku', 'vegeta'];
 console.log(martial_artists)
 
-const car = function(){
 
-}
+let people = ['mario', 'princess peach', 'donkey kong', 'chun li', 'wario'];
 
-function car(){
-
-}
-
+people.forEach((person) => {
+    console.log(person);
+});
