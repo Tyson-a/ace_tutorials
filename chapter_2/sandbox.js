@@ -26,3 +26,5 @@ people.forEach(function(person){
 
 console.log(html);
 ul.innerHTML = html
+
+// Objects in javascript have properties and things they can do(methods)
